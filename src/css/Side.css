@@ -1,0 +1,34 @@
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+}
+
+.LOGO {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.LOGO>span {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    margin: 5px 20px 5px 20px;
+}
+.menu-header {
+    display: flex;
+    justify-content: flex-start;
+}
+.material-symbols-outlined{
+    padding-top: 4px;
+}
+.menu-icon {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 10px;
+}
