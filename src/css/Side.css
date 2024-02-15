@@ -15,14 +15,14 @@
 
 .menu {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
-    height: 50px;
     margin: 5px 20px 5px 20px;
 }
 .menu-header {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 .material-symbols-outlined{
     padding-top: 4px;
@@ -31,4 +31,9 @@
     font-size: 1.5em;
     font-weight: bold;
     margin-right: 10px;
+}
+
+.subMenu {
+    display: flex;
+    flex-direction: column;
 }

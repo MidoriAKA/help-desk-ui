@@ -8,12 +8,10 @@ const Side = () => {
                 <Menu 
                     name={'Tickets'}
                     icon={'tickets'}
-                    number={3}
                 />
                 <Menu 
                     name={'BookMark'}
                     icon={'bookmark'}
-                    number={5}
                 />
             </div>
         </div>

@@ -1,6 +1,6 @@
 import '../css/Side.css';
-import {SubMenu} from './index';
-const Menu = ({name, icon, number}) => {
+import { SubMenuTickets, SubMenuBookMark } from './index';
+const Menu = ({name, icon }) => {
     const icons = {
         tickets: 'confirmation_number',
         bookmark: 'bookmark',
@@ -12,9 +12,13 @@ const Menu = ({name, icon, number}) => {
                 <span className="menu-icon material-symbols-outlined">{icons[icon]}</span>
                 <h2>{name}</h2>
             </div>
-            <SubMenu
-                number={number}
-            />
+
+            {name === 'Tickets' ? (
+                <SubMenuTickets />
+            ) : name === 'BookMark' ? (
+                <SubMenuBookMark />
+            ) : null}
+
         </div>
     );
 };
