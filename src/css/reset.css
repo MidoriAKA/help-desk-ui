@@ -1,0 +1,68 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+    /*IE(Internet Explorer)・Microsoft Edgeへの対応*/
+    -ms-overflow-style: none;
+    /*Firefoxへの対応*/
+    scrollbar-width: none;
+}/* box-sizing: border-box;を設定、スクロールバーの非表示 */
+ *::-webkit-scrollbar{
+  display: none;
+}/*スクロールバーの非表示をGoogle Chrome、Safariへの対応*/
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}/* フォントサイズの拡大を防ぐ */
+
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin: 0;
+}/* デフォルトのマージンを削除、作成するCSSの制御を改善するため */
+ 
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}/* リストのスタイルを削除、これはデフォルトのスタイルが削除されることを示唆します */
+ 
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}/* bodyのデフォルトを設定 */
+ 
+h1, h2, h3, h4,
+button, input, label {
+  line-height: 1.1;
+}/* 見出しやインタラクティブ要素のline-heightを設定 */
+ 
+h1, h2,
+h3, h4 {
+  text-wrap: balance;
+}/* 見出しのテキスト折り返しをbalanceに設定 */
+ 
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+  text-decoration: none;
+}/* classを持たないa要素はデフォルトのスタイルを継承 */
+ 
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}/* 画像の扱いを簡単にする */
+
+input, button,
+textarea, select {
+  font: inherit;
+}/* inputやbuttonなどのfontは継承 */
+ 
+textarea:not([rows]) {
+  min-height: 10em;
+}/* rows属性のないtextareasが小さくならないようにする */
+ 
+:target {
+  scroll-margin-block: 5ex;
+}/* アンカーされている要素には余分なスクロールマージンが必要 */

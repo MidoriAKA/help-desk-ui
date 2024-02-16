@@ -1,13 +1,12 @@
-import '../../css/Side.css';
 const SubMenuBookMark = () => {
     return (
-        <div className="subMenu">
-            <span>Intra net</span>
-            <span>Procergs</span>
-            <span>Soe Web</span>
-            <span>PROA</span>
-            <span>Base de conhecimento</span>
-            <span>Outlook</span>
+        <div className="sub-menu">
+            <a href='http://intranet.daer.rs.gov.br'>Intra net</a>
+            <a href='https://www.minhaprocergs.rs.gov.br'>Procergs</a>
+            <a href='https://www.soe.rs.gov.br/soe/protegido/NSOEdefault.html'>Soe Web</a>
+            <a href='https://secweb.intra.rs.gov.br/pra-aj4/'>PROA</a>
+            <a href='http://sti.ad.daer.rs.gov.br'>STI</a>
+            <a href='https://outlook.office.com/mail/'>Outlook</a>
         </div>
     );
 };

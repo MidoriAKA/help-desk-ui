@@ -1,4 +1,3 @@
-import '../css/Side.css';
 import { SubMenuTickets, SubMenuBookMark } from './index';
 const Menu = ({name, icon }) => {
     const icons = {
@@ -6,8 +5,10 @@ const Menu = ({name, icon }) => {
         bookmark: 'bookmark',
     }
 
+    const menuName = `${name.toLowerCase()}-menu`;
+
     return (
-        <div className="menu">
+        <div id={menuName} className='menu-comp'>
             <div className="menu-header">
                 <span className="menu-icon material-symbols-outlined">{icons[icon]}</span>
                 <h2>{name}</h2>

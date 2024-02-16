@@ -1,10 +1,9 @@
-import '../css/Side.css';
 import { Menu, Logo } from './index';
 const Side = () => {
     return (
-        <div className="grid">
+        <div className="side-grid">
             <Logo />
-            <div>
+            <div className='menu'>
                 <Menu 
                     name={'Tickets'}
                     icon={'tickets'}
