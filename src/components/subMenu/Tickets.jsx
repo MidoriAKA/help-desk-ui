@@ -1,11 +1,11 @@
 const SubMenuTickets = () => {
     return (
-        <div className='sub-menu'>
-            <span>Todos</span>
-            <span>Nao pendente</span>
-            <span>Pendente</span>
-            <span>Pinned</span>
-        </div>
+        <ul className='sub-menu'>
+            <li>Todos</li>
+            <li>Nao pendente</li>
+            <li>Pendente</li>
+            <li>Pinned</li>
+        </ul>
     );
 };
 
