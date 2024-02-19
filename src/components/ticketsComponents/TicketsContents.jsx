@@ -7,9 +7,9 @@ const TicketsContents = ({ticketDates}) => {
             <td id={`${ticketDates._id}_priority`}>
                 {ticketDates.info.priority}
                     <div>
-                        {ticketDates.info.priority === "Baixa" ? "😪" :
-                        ticketDates.info.priority === "Média" ? "🔥" :
-                        "🚨"}
+                        {ticketDates.info.priority === "Média" ? "🔥" :
+                        ticketDates.info.priority === "Alta" ? "🚨" :
+                        ""}
                     </div>
             </td>
             <td id={`${ticketDates._id}_info`}>
