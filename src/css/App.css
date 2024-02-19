@@ -6,8 +6,8 @@
 }
 
 .side-grid {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 1fr 10fr;
 }
 
 .logo {
@@ -28,7 +28,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin: 10px 20px 0 20px;
+  margin: 0 20px 0 20px;
 }
 .menu-comp {
   margin: 10px 0 10px 0;
@@ -47,9 +47,8 @@
 .sub-menu {
   display: flex;
   flex-direction: column;
-  /* margin: 10px 0 0 35px; */
-  li, a {
-    list-style: none;
+  margin: 10px 0 0 35px;
+  span, a {
       font-size: 1.1em;
   }
 }
@@ -86,10 +85,8 @@
     width: 500px;
   }
   .ticket-tr {
-    box-shadow:2px -2px 0px 0px black inset;
     display: flex;
     align-items: center;
-    margin: 10px 0;
       td {
         padding: 10px 20px;
       }
@@ -117,10 +114,4 @@
         width: 500px;
       }
   }
-}
-
-.priority-emoji {
-  position: absolute;
-  font-size: 1.3rem !important;
-  transform: rotate(345deg) translate(10px, -50px) !important;
 }

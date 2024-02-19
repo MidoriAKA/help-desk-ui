@@ -1,6 +1,6 @@
 import './css/App.css';
 import './css/reset.css';
-import ticketDates from './dummy/dummy_3.json';
+import ticketDates from './dummy/dummy_2.json';
 import { Side, Tickets } from './components/index';
 
 function App() {
