@@ -1,11 +1,16 @@
 import { SubMenuTickets, SubMenuBookMark } from './index';
-const Menu = ({name, icon }) => {
+const Menu = ({name, icon, tempHandle }) => {
+
     const icons = {
         tickets: 'confirmation_number',
         bookmark: 'bookmark',
     }
 
     const menuName = `${name.toLowerCase()}-menu`;
+
+    const menuTempHandle = (newFilter) => {
+        tempHandle(newFilter);
+    }
 
     return (
         <div id={menuName} className='menu-comp'>
@@ -15,7 +20,7 @@ const Menu = ({name, icon }) => {
             </div>
 
             {name === 'Tickets' ? (
-                <SubMenuTickets />
+                <SubMenuTickets handleMenuFilter={menuTempHandle} />
             ) : name === 'BookMark' ? (
                 <SubMenuBookMark />
             ) : null}
