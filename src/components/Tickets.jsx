@@ -20,7 +20,7 @@ const Tickets = ({ ticketDates }) => {
                 <thead>
                     <tr>
                         <th>ID</th>
-                        <th>Prioridade</th>
+                        <th>Status</th>
                         <th>Informação</th>
                         <th>Atribuído<br />Técnico</th>
                         <th><br />Grupo</th>
@@ -28,7 +28,11 @@ const Tickets = ({ ticketDates }) => {
                 </thead>
                 <tbody>
                     {currentTickets.map((_, index) => (
-                        <tr key={index} className='ticket-tr'>
+                        <tr key={index}
+                            id={currentTickets[index].info.status === 'Fechado' ? 'closedTicket' : ''}
+                            className={currentTickets[index].info.priority === 'Média' ? 'ticket-tr p-mid' :
+                                        currentTickets[index].info.priority ==='Alta' ? 'ticket-tr p-high' :
+                                        'ticket-tr'} >
                             <TicketsContents
                                 ticketDates={currentTickets[index]}
                             />

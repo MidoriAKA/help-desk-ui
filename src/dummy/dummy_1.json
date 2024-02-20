@@ -1,227 +1,663 @@
 [
   {
-    "_id": 55271,
+    "_id": 55994,
     "info": {
       "title": "Solicitação de Atendimento",
       "status": "Fechado",
       "priority": "Média",
-      "clientName": "Cohen Mejia",
-      "update": "2024-03-21 07:42",
-      "creation": "2023-10-30 18:59",
-      "assignedTech": "Cheri Velasquez",
+      "clientName": "Langley Cash",
+      "update": "2024-03-24 07:38",
+      "creation": "2023-12-11 21:47",
+      "assignedTech": [
+        "Thiago Fischborn",
+        "Rodrigo Lorscheiter"
+      ],
       "assignedGroup": "N2-Sup",
-      "category": "Software",
-      "description": "In officia magna fugiat aliqua sunt aliquip et commodo consectetur. Ullamco eu excepteur quis nisi quis aute velit anim laborum eu ullamco id. Nostrud pariatur elit incididunt nisi tempor nostrud exercitation fugiat fugiat in occaecat eu duis Lorem. Sit ex esse aliquip consequat laborum amet ullamco aute irure officia. Qui in ad labore exercitation ea cupidatat nostrud ullamco labore id. Est aliqua Lorem tempor officia laboris exercitation ipsum.\r\n"
+      "category": "Sistemas",
+      "description": "Officia exercitation deserunt veniam nulla aliquip labore velit officia esse. Laborum elit minim nostrud aliquip qui eu reprehenderit. Reprehenderit commodo cupidatat exercitation exercitation adipisicing ullamco cillum. Exercitation non ad dolore voluptate voluptate magna.\r\n"
     }
   },
   {
-    "_id": 55609,
+    "_id": 55715,
     "info": {
       "title": "Criação de Usuário",
-      "status": "Fechado",
-      "priority": "Alta",
-      "clientName": "Aileen Melendez",
-      "update": "2024-02-22 05:39",
-      "creation": "2023-10-05 23:39",
-      "assignedTech": "Valencia Parsons",
-      "assignedGroup": "Sistemas",
-      "category": "Software",
-      "description": "Pariatur reprehenderit ex ex aliqua nisi officia irure nostrud aliqua. Lorem duis labore ad sunt cupidatat dolore aliqua aliquip ipsum. Elit reprehenderit nostrud aliqua pariatur sunt mollit elit reprehenderit consectetur in consequat exercitation. Irure sint commodo amet culpa. Qui occaecat magna et quis et cupidatat.\r\n"
-    }
-  },
-  {
-    "_id": 55552,
-    "info": {
-      "title": "Solicitação de Atendimento",
-      "status": "Em Andamento",
+      "status": "Processando",
       "priority": "Média",
-      "clientName": "Yang Clemons",
-      "update": "2024-05-19 13:07",
-      "creation": "2024-01-05 17:39",
-      "assignedTech": "Dolores Craft",
-      "assignedGroup": "N1",
-      "category": "Software",
-      "description": "Ut aliquip duis laborum esse velit cillum sit fugiat excepteur id cillum pariatur. Minim sunt culpa nisi esse nulla ea occaecat. Anim occaecat reprehenderit proident deserunt veniam ea exercitation adipisicing ex amet cupidatat amet adipisicing dolore.\r\n"
+      "clientName": "Bonnie Espinoza",
+      "update": "2024-02-03 01:51",
+      "creation": "2024-01-23 13:04",
+      "assignedTech": [
+        "Lorenzo Mogi Yang",
+        "matheus silva ribeiro",
+        "Rodrigo Lorscheiter"
+      ],
+      "assignedGroup": "N2-Tech",
+      "category": "Hardware",
+      "description": "Cillum dolor amet eu consectetur tempor reprehenderit pariatur occaecat. Ut fugiat laboris qui cupidatat. Ad deserunt amet consectetur veniam non esse laborum tempor occaecat et mollit irure.\r\n"
     }
   },
   {
-    "_id": 55805,
+    "_id": 55663,
     "info": {
-      "title": "Solicitação de Atendimento",
-      "status": "Aberto",
+      "title": "Criação de Usuário",
+      "status": "Pendente",
       "priority": "Baixa",
-      "clientName": "Joanne Castaneda",
-      "update": "2024-05-06 03:28",
-      "creation": "2023-12-08 12:31",
-      "assignedTech": "Zimmerman Richard",
+      "clientName": "Regina Rivas",
+      "update": "2024-05-11 15:23",
+      "creation": "2023-12-27 01:29",
+      "assignedTech": [
+        "matheus silva ribeiro",
+        "Schainan Hahn Soares",
+        "Thiago Fischborn"
+      ],
+      "assignedGroup": "N2-Sup",
+      "category": "Software",
+      "description": "Tempor consectetur adipisicing eiusmod officia incididunt id aute sunt est ea cupidatat reprehenderit. Magna consequat laboris duis labore laboris deserunt. Cupidatat tempor qui culpa cupidatat sint reprehenderit irure officia officia. Nulla magna fugiat aliqua nulla laborum aliqua ad irure laborum occaecat do pariatur aliqua nisi.\r\n"
+    }
+  },
+  {
+    "_id": 55872,
+    "info": {
+      "title": "Solicitação de Atendimento",
+      "status": "Pendente",
+      "priority": "Alta",
+      "clientName": "Robert Cabrera",
+      "update": "2024-02-25 17:34",
+      "creation": "2023-12-30 23:16",
+      "assignedTech": [
+        "matheus silva ribeiro"
+      ],
+      "assignedGroup": "Sistemas",
+      "category": "Sistemas",
+      "description": "In pariatur consectetur laborum laborum nisi. Occaecat nisi in consectetur commodo aliquip pariatur consequat elit ullamco laborum reprehenderit ex minim. Do quis esse qui nulla fugiat enim incididunt cupidatat enim.\r\n"
+    }
+  },
+  {
+    "_id": 55339,
+    "info": {
+      "title": "Solicitação de Atendimento",
+      "status": "Pendente",
+      "priority": "Alta",
+      "clientName": "Weiss Johns",
+      "update": "2024-04-11 06:02",
+      "creation": "2024-01-15 06:34",
+      "assignedTech": [],
+      "assignedGroup": "N2-Tech",
+      "category": "Software",
+      "description": "Occaecat id ad dolore reprehenderit veniam amet duis quis quis eiusmod nisi. Voluptate dolore cupidatat labore sunt mollit aute sint dolore deserunt do quis aliquip voluptate excepteur. Dolor veniam qui consectetur reprehenderit nisi nisi cillum.\r\n"
+    }
+  },
+  {
+    "_id": 55674,
+    "info": {
+      "title": "Solicitação de Atendimento",
+      "status": "Fechado",
+      "priority": "Média",
+      "clientName": "Nunez Farrell",
+      "update": "2024-03-20 05:22",
+      "creation": "2023-12-25 17:09",
+      "assignedTech": [
+        "Lorenzo Mogi Yang"
+      ],
       "assignedGroup": "N2-Tech",
       "category": "Rede",
-      "description": "Nulla proident occaecat sit aliquip nostrud non reprehenderit sint. Duis occaecat nostrud amet quis excepteur pariatur fugiat magna tempor nostrud nisi aliquip est. Laboris reprehenderit aute aliquip ea consectetur ad veniam elit reprehenderit cillum Lorem. Quis quis laboris aliquip dolore Lorem irure do deserunt ullamco. Non proident est ex do id adipisicing esse in minim culpa. Occaecat enim sit aliqua enim reprehenderit. Id nostrud incididunt irure esse.\r\n"
+      "description": "Sunt qui fugiat eiusmod duis velit est qui minim. Officia exercitation aute labore amet ea. Nostrud sit sunt enim quis consequat ea anim. Voluptate sit incididunt duis cupidatat pariatur anim sit. Laboris Lorem sint eu nisi nulla labore et enim duis. Qui deserunt aute amet mollit elit non. Nulla duis reprehenderit nostrud enim.\r\n"
     }
   },
   {
-    "_id": 55796,
+    "_id": 55909,
     "info": {
       "title": "Solicitação de Atendimento",
-      "status": "Aberto",
+      "status": "Pendente",
       "priority": "Alta",
-      "clientName": "Lesa Gross",
-      "update": "2024-02-09 23:02",
-      "creation": "2023-10-17 20:43",
-      "assignedTech": "Nancy Harper",
-      "assignedGroup": "N1",
-      "category": "Hardware",
-      "description": "Tempor Lorem amet nostrud officia laboris. Exercitation magna et aliquip ut eiusmod dolor nisi in labore ipsum duis minim eiusmod consectetur. Nostrud sit dolor sit nostrud occaecat do commodo laboris nisi cillum adipisicing ut cillum.\r\n"
+      "clientName": "Rosa Page",
+      "update": "2024-02-13 10:36",
+      "creation": "2023-10-07 01:45",
+      "assignedTech": [],
+      "assignedGroup": "Sistemas",
+      "category": "Software",
+      "description": "Laborum et nulla qui sit irure in id id nulla eiusmod proident anim enim et. Nostrud ea duis incididunt aliqua consectetur in dolor Lorem esse occaecat occaecat. Pariatur eu esse consectetur aute ipsum aliqua consequat mollit labore nisi nisi et.\r\n"
     }
   },
   {
-    "_id": 55869,
-    "info": {
-      "title": "Solicitação de Atendimento",
-      "status": "Em Andamento",
-      "priority": "Média",
-      "clientName": "Doreen Griffith",
-      "update": "2024-03-26 13:14",
-      "creation": "2023-10-25 04:24",
-      "assignedTech": "Brooks Combs",
-      "assignedGroup": "N1",
-      "category": "Hardware",
-      "description": "Ad laborum anim aliqua nulla labore occaecat ullamco voluptate cillum sint consectetur duis. Eiusmod sint do occaecat voluptate nostrud aliquip excepteur laborum est fugiat proident ex laboris. Eu anim reprehenderit non incididunt officia enim adipisicing eiusmod aliquip adipisicing consequat.\r\n"
-    }
-  },
-  {
-    "_id": 55418,
-    "info": {
-      "title": "Criação de Usuário",
-      "status": "Em Andamento",
-      "priority": "Média",
-      "clientName": "Maddox Walls",
-      "update": "2024-03-18 08:23",
-      "creation": "2024-01-29 01:48",
-      "assignedTech": "Aline Oneal",
-      "assignedGroup": "N1",
-      "category": "Hardware",
-      "description": "Do sit sint consectetur et veniam eu occaecat excepteur Lorem id. Ex laborum exercitation commodo aliquip est sunt qui id occaecat commodo laboris. Nisi irure duis sunt tempor reprehenderit ut adipisicing sint. Incididunt est eiusmod ea deserunt excepteur ea. Sint officia Lorem ea officia officia ad laborum velit ex minim dolore. Ut excepteur tempor ullamco tempor esse qui et sunt anim consectetur veniam laborum id. Reprehenderit id labore occaecat sit ullamco culpa id tempor reprehenderit.\r\n"
-    }
-  },
-  {
-    "_id": 55713,
+    "_id": 55707,
     "info": {
       "title": "Criação de Usuário",
       "status": "Fechado",
       "priority": "Baixa",
-      "clientName": "Rhonda Bradford",
-      "update": "2024-04-10 22:30",
-      "creation": "2023-11-25 11:16",
-      "assignedTech": "Guerra Mayo",
+      "clientName": "Suzanne Price",
+      "update": "2024-02-03 14:04",
+      "creation": "2023-12-22 05:00",
+      "assignedTech": [],
       "assignedGroup": "Sistemas",
-      "category": "Rede",
-      "description": "Officia tempor amet dolor ad culpa tempor cillum non velit tempor. Fugiat non ipsum elit nulla velit non velit ea commodo minim proident. Sit commodo ullamco irure pariatur duis Lorem. Id aliqua ut id cupidatat excepteur. Nostrud est enim ea velit officia dolor pariatur duis quis consectetur.\r\n"
+      "category": "Hardware",
+      "description": "Quis minim eu elit ullamco deserunt sint proident. Sit amet ea irure deserunt fugiat ipsum cillum. Dolore do veniam ex officia elit eu et nisi pariatur do.\r\n"
     }
   },
   {
-    "_id": 55228,
+    "_id": 55554,
+    "info": {
+      "title": "Solicitação de Atendimento",
+      "status": "Processando",
+      "priority": "Média",
+      "clientName": "Fran Lang",
+      "update": "2024-04-29 09:23",
+      "creation": "2023-11-01 00:00",
+      "assignedTech": [
+        "Lorenzo Mogi Yang",
+        "Schainan Hahn Soares"
+      ],
+      "assignedGroup": "N1",
+      "category": "Sistemas",
+      "description": "Laboris eu esse nostrud anim id occaecat esse ullamco qui veniam ea fugiat laboris. Consectetur deserunt anim sit deserunt et enim aute consequat mollit reprehenderit. Laboris aliquip aliqua irure cupidatat irure laboris veniam fugiat Lorem ad in ex deserunt exercitation. Ipsum ipsum non ipsum ut mollit pariatur minim excepteur minim consectetur anim sunt aliquip nisi. Fugiat sit est incididunt et. Mollit non nostrud pariatur labore eiusmod veniam ipsum labore voluptate velit.\r\n"
+    }
+  },
+  {
+    "_id": 55674,
+    "info": {
+      "title": "Solicitação de Atendimento",
+      "status": "Processando",
+      "priority": "Média",
+      "clientName": "Jenkins Harrington",
+      "update": "2024-04-19 11:53",
+      "creation": "2024-01-12 12:12",
+      "assignedTech": [],
+      "assignedGroup": "N1",
+      "category": "Hardware",
+      "description": "Nisi laboris consequat enim esse elit eu laborum nulla. Est aute consectetur eiusmod sint magna amet reprehenderit est fugiat minim nulla est. Voluptate ea officia adipisicing sunt elit voluptate elit.\r\n"
+    }
+  },
+  {
+    "_id": 55117,
+    "info": {
+      "title": "Solicitação de Atendimento",
+      "status": "Pendente",
+      "priority": "Média",
+      "clientName": "Jordan Warren",
+      "update": "2024-02-29 09:56",
+      "creation": "2024-01-11 10:14",
+      "assignedTech": [],
+      "assignedGroup": "N2-Tech",
+      "category": "Sistemas",
+      "description": "Enim consectetur non et ullamco qui incididunt. Dolore culpa pariatur fugiat veniam id pariatur duis ipsum. Mollit cupidatat elit et eu laboris nostrud eiusmod pariatur exercitation velit. Velit amet ipsum commodo consectetur officia sint sint occaecat proident dolor esse. Ad pariatur duis dolor anim elit anim.\r\n"
+    }
+  },
+  {
+    "_id": 55885,
     "info": {
       "title": "Criação de Usuário",
-      "status": "Em Andamento",
-      "priority": "Alta",
-      "clientName": "Hannah Rush",
-      "update": "2024-05-06 18:25",
-      "creation": "2024-01-17 16:55",
-      "assignedTech": "Raymond Norris",
-      "assignedGroup": "Sistemas",
-      "category": "Software",
-      "description": "Consectetur sunt magna in sunt exercitation velit ut laborum mollit cupidatat commodo id. Eu reprehenderit cillum consequat sint eiusmod sit esse adipisicing velit nisi occaecat ipsum mollit dolore. Eiusmod ut id sint excepteur sit commodo laborum labore et. Est aliquip minim nostrud labore adipisicing do culpa officia dolor sit. Commodo irure nulla enim excepteur ipsum consectetur in nostrud reprehenderit pariatur. Culpa fugiat est cupidatat sit.\r\n"
+      "status": "Processando",
+      "priority": "Baixa",
+      "clientName": "Alana Figueroa",
+      "update": "2024-02-19 23:22",
+      "creation": "2023-12-13 13:45",
+      "assignedTech": [
+        "Rodrigo Lorscheiter"
+      ],
+      "assignedGroup": "N2-Sup",
+      "category": "Hardware",
+      "description": "Est mollit duis esse do ea tempor laborum enim fugiat in minim. Tempor laboris laboris consequat sint Lorem cillum mollit. Laboris Lorem magna enim veniam ullamco excepteur adipisicing cillum voluptate. Velit tempor duis anim sint ea ipsum anim sunt. Incididunt cupidatat fugiat in duis id sunt laborum non minim consequat aliquip est nulla. Sit magna quis minim officia commodo anim reprehenderit mollit sunt veniam. Mollit quis fugiat officia commodo consectetur tempor occaecat incididunt culpa minim voluptate officia.\r\n"
     }
   },
   {
-    "_id": 55627,
+    "_id": 55046,
+    "info": {
+      "title": "Criação de Usuário",
+      "status": "Processando",
+      "priority": "Baixa",
+      "clientName": "Beth Boyd",
+      "update": "2024-03-17 04:26",
+      "creation": "2023-11-03 10:41",
+      "assignedTech": [
+        "Lorenzo Mogi Yang"
+      ],
+      "assignedGroup": "N2-Sup",
+      "category": "Hardware",
+      "description": "Quis aliqua labore laboris minim sint. Aliqua irure consectetur duis mollit. Eiusmod veniam cillum anim exercitation ut. Lorem sunt mollit culpa esse ad enim deserunt sunt sint commodo elit consectetur labore.\r\n"
+    }
+  },
+  {
+    "_id": 55483,
+    "info": {
+      "title": "Solicitação de Atendimento",
+      "status": "Processando",
+      "priority": "Alta",
+      "clientName": "Corine Barnes",
+      "update": "2024-05-06 19:20",
+      "creation": "2023-11-14 02:17",
+      "assignedTech": [],
+      "assignedGroup": "N2-Sup",
+      "category": "Rede",
+      "description": "Non ullamco ad elit ea id occaecat quis mollit Lorem cupidatat. Nostrud ullamco adipisicing mollit ea exercitation deserunt irure anim est culpa laboris sunt ullamco nulla. Velit aliqua minim Lorem nulla velit labore ad duis dolor culpa reprehenderit. Ea excepteur elit voluptate fugiat aute. In consequat elit aute dolore excepteur cillum.\r\n"
+    }
+  },
+  {
+    "_id": 55252,
+    "info": {
+      "title": "Solicitação de Atendimento",
+      "status": "Pendente",
+      "priority": "Alta",
+      "clientName": "Stewart Daniels",
+      "update": "2024-02-17 03:50",
+      "creation": "2023-11-02 14:35",
+      "assignedTech": [
+        "Thiago Fischborn",
+        "Lorenzo Mogi Yang",
+        "Schainan Hahn Soares"
+      ],
+      "assignedGroup": "Sistemas",
+      "category": "Software",
+      "description": "Amet duis duis laboris consequat incididunt laborum ex consectetur proident et excepteur. Adipisicing ipsum do laboris aliquip irure in non in esse qui reprehenderit. Ullamco anim commodo ex cupidatat est laborum est quis non laboris mollit ex. Labore et amet culpa id. Ipsum sint irure ad ex.\r\n"
+    }
+  },
+  {
+    "_id": 55566,
     "info": {
       "title": "Criação de Usuário",
       "status": "Fechado",
       "priority": "Média",
-      "clientName": "Gay Barrett",
-      "update": "2024-04-13 20:42",
-      "creation": "2023-11-28 06:12",
-      "assignedTech": "Augusta Shaffer",
+      "clientName": "Callahan Goff",
+      "update": "2024-02-11 08:26",
+      "creation": "2023-10-07 04:27",
+      "assignedTech": [],
       "assignedGroup": "N2-Sup",
-      "category": "Rede",
-      "description": "Consectetur dolore veniam ipsum nulla sint minim reprehenderit consectetur sit. Consequat non Lorem laborum ex. Culpa ea exercitation deserunt adipisicing sint. Ut anim sit non tempor. Pariatur et ad voluptate adipisicing tempor exercitation consectetur sint laborum culpa incididunt. Exercitation enim ipsum tempor pariatur cillum id. Nisi dolor id ullamco ullamco quis.\r\n"
+      "category": "Hardware",
+      "description": "Labore elit magna sunt eiusmod cupidatat. Fugiat amet ut labore incididunt sit amet deserunt elit incididunt consectetur proident. Pariatur eiusmod et voluptate fugiat minim minim consectetur non culpa Lorem et. Pariatur veniam minim cupidatat officia est esse nisi quis ipsum.\r\n"
     }
   },
   {
-    "_id": 55037,
+    "_id": 55239,
     "info": {
       "title": "Solicitação de Atendimento",
       "status": "Fechado",
       "priority": "Alta",
-      "clientName": "Christy Beck",
-      "update": "2024-03-02 20:27",
-      "creation": "2023-11-03 13:38",
-      "assignedTech": "Wagner Black",
+      "clientName": "Jimenez Schwartz",
+      "update": "2024-04-14 23:58",
+      "creation": "2023-12-10 11:07",
+      "assignedTech": [
+        "Schainan Hahn Soares"
+      ],
+      "assignedGroup": "N2-Tech",
+      "category": "Hardware",
+      "description": "Laboris dolor duis amet eu in excepteur do aute. Veniam occaecat esse eu adipisicing ipsum ex laborum ad. Tempor labore sint magna pariatur quis. Sit mollit exercitation occaecat consequat exercitation dolore. Adipisicing culpa dolore aliqua voluptate minim amet esse nulla et est nostrud.\r\n"
+    }
+  },
+  {
+    "_id": 55326,
+    "info": {
+      "title": "Criação de Usuário",
+      "status": "Fechado",
+      "priority": "Baixa",
+      "clientName": "Mejia Nelson",
+      "update": "2024-02-08 18:32",
+      "creation": "2024-01-19 09:19",
+      "assignedTech": [
+        "matheus silva ribeiro"
+      ],
+      "assignedGroup": "Sistemas",
+      "category": "Software",
+      "description": "Officia aliqua anim aliqua consequat sit qui culpa. Nulla magna id laborum sit. Deserunt aute officia excepteur reprehenderit sit consectetur deserunt officia nulla officia fugiat ex fugiat. Occaecat voluptate exercitation consequat ipsum.\r\n"
+    }
+  },
+  {
+    "_id": 55080,
+    "info": {
+      "title": "Solicitação de Atendimento",
+      "status": "Processando",
+      "priority": "Baixa",
+      "clientName": "Marisol Park",
+      "update": "2024-03-20 11:03",
+      "creation": "2023-11-11 20:48",
+      "assignedTech": [
+        "Rodrigo Lorscheiter"
+      ],
+      "assignedGroup": "N1",
+      "category": "Hardware",
+      "description": "Eu ipsum ea qui quis ad fugiat exercitation Lorem. Consectetur sit culpa dolor reprehenderit et sunt ad ea laboris. Consectetur minim proident exercitation aliqua cupidatat magna nulla occaecat commodo ipsum qui. Tempor ad labore elit culpa irure laboris magna pariatur ullamco ea voluptate. Enim consectetur mollit anim amet dolor proident eiusmod cupidatat. Fugiat labore incididunt officia est enim mollit sunt velit sint labore dolor duis. Proident esse eu non mollit elit esse amet aliqua adipisicing minim.\r\n"
+    }
+  },
+  {
+    "_id": 55702,
+    "info": {
+      "title": "Solicitação de Atendimento",
+      "status": "Pendente",
+      "priority": "Média",
+      "clientName": "Angelina Duffy",
+      "update": "2024-02-16 21:45",
+      "creation": "2024-01-15 01:36",
+      "assignedTech": [],
       "assignedGroup": "N2-Tech",
       "category": "Rede",
-      "description": "Veniam fugiat culpa aliqua ipsum qui commodo fugiat. Magna veniam ullamco irure id proident minim sit qui officia irure ex ut. Nisi est laborum id deserunt officia mollit veniam occaecat ad eiusmod. Labore est sunt et eu in. Commodo cupidatat aliqua enim amet irure quis exercitation ullamco nulla. Elit cillum velit quis adipisicing in amet voluptate elit aliqua incididunt ipsum magna velit tempor. Labore reprehenderit elit qui amet incididunt esse ad commodo mollit ex mollit aute ipsum in.\r\n"
+      "description": "Et labore officia ipsum enim dolor dolor laborum voluptate velit eu occaecat veniam. Nulla magna pariatur ipsum consectetur elit. Commodo sunt excepteur eiusmod aute. Ex enim reprehenderit consectetur ea cupidatat. Et aute dolore deserunt eiusmod ea adipisicing est id excepteur incididunt exercitation consectetur laboris amet. Consectetur ut Lorem do mollit aliquip sunt ad ex dolore pariatur amet ipsum ad.\r\n"
     }
   },
   {
-    "_id": 55478,
+    "_id": 55644,
     "info": {
-      "title": "Criação de Usuário",
-      "status": "Aberto",
+      "title": "Solicitação de Atendimento",
+      "status": "Pendente",
       "priority": "Alta",
-      "clientName": "Estela Macdonald",
-      "update": "2024-03-10 14:12",
-      "creation": "2023-11-21 15:03",
-      "assignedTech": "Rojas Snow",
-      "assignedGroup": "Sistemas",
+      "clientName": "Graciela Kent",
+      "update": "2024-03-29 12:52",
+      "creation": "2023-10-25 22:36",
+      "assignedTech": [
+        "Rodrigo Lorscheiter"
+      ],
+      "assignedGroup": "N2-Tech",
       "category": "Rede",
-      "description": "Nostrud deserunt velit duis ad excepteur ut sit Lorem magna cupidatat minim. Consequat commodo proident aliquip minim. Deserunt elit quis est cupidatat esse id adipisicing non esse.\r\n"
+      "description": "In id dolore Lorem cillum minim ut. Esse minim eiusmod consequat Lorem amet nostrud minim laborum exercitation est. Aliqua qui do sint nisi consectetur officia eu enim ut et officia reprehenderit officia fugiat. Consequat est dolor ut magna labore aute minim Lorem ipsum velit ullamco. Voluptate amet qui esse elit nulla enim quis proident pariatur minim ipsum esse labore.\r\n"
     }
   },
   {
-    "_id": 55479,
+    "_id": 55824,
     "info": {
-      "title": "Criação de Usuário",
-      "status": "Em Andamento",
+      "title": "Solicitação de Atendimento",
+      "status": "Fechado",
       "priority": "Média",
-      "clientName": "Neva Huffman",
-      "update": "2024-03-07 18:21",
-      "creation": "2023-12-26 03:28",
-      "assignedTech": "Barker Davenport",
+      "clientName": "Freida Hutchinson",
+      "update": "2024-05-21 05:48",
+      "creation": "2023-10-13 17:35",
+      "assignedTech": [],
       "assignedGroup": "N2-Sup",
       "category": "Rede",
-      "description": "Esse sunt culpa velit fugiat cupidatat consectetur. Veniam dolor exercitation eu consectetur dolor anim nulla cillum. Consectetur cupidatat eiusmod ullamco occaecat veniam nisi excepteur est.\r\n"
+      "description": "Sint occaecat reprehenderit nisi non qui tempor exercitation. Do voluptate culpa consectetur exercitation mollit adipisicing laborum est sit. Est magna tempor laborum deserunt fugiat commodo ut. Tempor consequat non adipisicing labore ea tempor exercitation exercitation incididunt ullamco pariatur. Laborum dolor incididunt aliqua elit deserunt cillum. Anim elit laboris sunt excepteur ut eiusmod id.\r\n"
     }
   },
   {
-    "_id": 55086,
+    "_id": 55887,
+    "info": {
+      "title": "Solicitação de Atendimento",
+      "status": "Fechado",
+      "priority": "Média",
+      "clientName": "Perry Richard",
+      "update": "2024-04-15 21:10",
+      "creation": "2023-11-11 07:44",
+      "assignedTech": [
+        "Rodrigo Lorscheiter",
+        "Lorenzo Mogi Yang"
+      ],
+      "assignedGroup": "N2-Sup",
+      "category": "Rede",
+      "description": "Adipisicing elit voluptate non laborum consequat adipisicing. Dolore culpa mollit sit nisi laborum officia voluptate culpa eu consequat. Laboris do ullamco voluptate culpa fugiat est velit qui adipisicing cupidatat proident eiusmod.\r\n"
+    }
+  },
+  {
+    "_id": 55826,
+    "info": {
+      "title": "Criação de Usuário",
+      "status": "Processando",
+      "priority": "Média",
+      "clientName": "Herman Conrad",
+      "update": "2024-02-13 03:07",
+      "creation": "2023-10-26 04:21",
+      "assignedTech": [
+        "Rodrigo Lorscheiter"
+      ],
+      "assignedGroup": "Sistemas",
+      "category": "Hardware",
+      "description": "Exercitation consequat ullamco tempor veniam culpa. Ullamco sint Lorem nulla est nulla in magna commodo ullamco est. Exercitation et mollit tempor irure do aliqua esse sunt. Cillum do anim magna nulla sit ullamco in eiusmod in aliquip ea officia.\r\n"
+    }
+  },
+  {
+    "_id": 55775,
+    "info": {
+      "title": "Criação de Usuário",
+      "status": "Pendente",
+      "priority": "Alta",
+      "clientName": "Nicholson Barry",
+      "update": "2024-02-27 01:53",
+      "creation": "2023-11-01 21:50",
+      "assignedTech": [],
+      "assignedGroup": "N2-Sup",
+      "category": "Rede",
+      "description": "Consectetur ad sit labore irure. Esse nostrud labore nisi tempor aliquip enim adipisicing sit. Duis adipisicing commodo laboris voluptate exercitation culpa. Ad dolor nisi et laboris laboris mollit dolore nisi sint nulla officia cillum qui excepteur.\r\n"
+    }
+  },
+  {
+    "_id": 55090,
+    "info": {
+      "title": "Criação de Usuário",
+      "status": "Processando",
+      "priority": "Média",
+      "clientName": "Ware Santiago",
+      "update": "2024-05-10 20:50",
+      "creation": "2024-01-09 10:44",
+      "assignedTech": [
+        "Thiago Fischborn"
+      ],
+      "assignedGroup": "N2-Tech",
+      "category": "Sistemas",
+      "description": "Dolore Lorem incididunt nisi nostrud laborum sunt ex consectetur eu laborum magna commodo occaecat anim. Ea officia ex et minim adipisicing cillum Lorem eu Lorem sunt Lorem magna velit. Occaecat reprehenderit do eu Lorem non reprehenderit ullamco laborum mollit id.\r\n"
+    }
+  },
+  {
+    "_id": 55611,
+    "info": {
+      "title": "Solicitação de Atendimento",
+      "status": "Pendente",
+      "priority": "Alta",
+      "clientName": "Roman Lindsey",
+      "update": "2024-05-01 03:59",
+      "creation": "2023-11-22 18:08",
+      "assignedTech": [
+        "Rodrigo Lorscheiter"
+      ],
+      "assignedGroup": "N1",
+      "category": "Software",
+      "description": "Fugiat laborum irure reprehenderit eu qui laboris ullamco. Ut Lorem nulla adipisicing voluptate dolor. Ad incididunt et id nostrud ut.\r\n"
+    }
+  },
+  {
+    "_id": 55813,
+    "info": {
+      "title": "Criação de Usuário",
+      "status": "Pendente",
+      "priority": "Média",
+      "clientName": "Alejandra Farley",
+      "update": "2024-03-27 13:12",
+      "creation": "2023-11-23 11:55",
+      "assignedTech": [
+        "matheus silva ribeiro",
+        "Thiago Fischborn"
+      ],
+      "assignedGroup": "N1",
+      "category": "Hardware",
+      "description": "Dolor eu excepteur eiusmod cillum ex in eu consequat. Sit voluptate ex eiusmod dolor cillum laborum ex culpa ipsum nisi qui anim excepteur pariatur. Do qui quis cupidatat exercitation est esse ad aliqua velit voluptate ea voluptate. Eu nulla magna eu non irure occaecat non cillum adipisicing duis enim nostrud cupidatat.\r\n"
+    }
+  },
+  {
+    "_id": 55977,
+    "info": {
+      "title": "Criação de Usuário",
+      "status": "Processando",
+      "priority": "Baixa",
+      "clientName": "Chang Murray",
+      "update": "2024-05-07 09:59",
+      "creation": "2023-12-10 04:24",
+      "assignedTech": [],
+      "assignedGroup": "N2-Sup",
+      "category": "Rede",
+      "description": "Ex veniam fugiat officia cupidatat in laborum. Laborum nostrud ex velit esse nulla id proident excepteur dolor laboris non ullamco. Non dolor dolor quis nulla.\r\n"
+    }
+  },
+  {
+    "_id": 55397,
+    "info": {
+      "title": "Criação de Usuário",
+      "status": "Fechado",
+      "priority": "Alta",
+      "clientName": "Jana Bonner",
+      "update": "2024-02-26 20:06",
+      "creation": "2023-12-29 04:50",
+      "assignedTech": [
+        "matheus silva ribeiro",
+        "Thiago Fischborn",
+        "Schainan Hahn Soares"
+      ],
+      "assignedGroup": "N2-Sup",
+      "category": "Software",
+      "description": "Anim voluptate velit incididunt eiusmod id occaecat. Lorem elit elit magna Lorem do. Magna occaecat qui nisi nisi laboris ea.\r\n"
+    }
+  },
+  {
+    "_id": 55774,
     "info": {
       "title": "Criação de Usuário",
       "status": "Fechado",
       "priority": "Média",
-      "clientName": "Dominguez Lucas",
-      "update": "2024-04-21 16:57",
-      "creation": "2023-12-05 04:43",
-      "assignedTech": "Snyder Watts",
-      "assignedGroup": "N2-Tech",
-      "category": "Software",
-      "description": "Incididunt mollit id incididunt ut laborum non. Esse labore laborum aliqua nisi eu id qui ullamco laboris. Ullamco Lorem sint est ullamco Lorem commodo ad elit minim elit dolore eiusmod ipsum ipsum. Consequat adipisicing nostrud et dolor dolor duis sit aliqua non ea in voluptate duis. Magna ea irure culpa exercitation aliquip exercitation magna sint ea commodo duis amet amet ad. Voluptate qui occaecat reprehenderit officia laboris eu nostrud voluptate.\r\n"
+      "clientName": "Chapman Barr",
+      "update": "2024-04-01 10:55",
+      "creation": "2023-11-11 06:45",
+      "assignedTech": [
+        "Thiago Fischborn",
+        "Rodrigo Lorscheiter",
+        "Lorenzo Mogi Yang"
+      ],
+      "assignedGroup": "N1",
+      "category": "Sistemas",
+      "description": "Culpa laboris consectetur eiusmod deserunt minim aliquip reprehenderit quis aute cupidatat culpa sunt. Deserunt veniam ullamco laborum quis sit aliqua nisi veniam et nostrud. Incididunt laborum duis laborum pariatur est magna tempor.\r\n"
     }
   },
   {
-    "_id": 55991,
+    "_id": 55682,
+    "info": {
+      "title": "Solicitação de Atendimento",
+      "status": "Processando",
+      "priority": "Baixa",
+      "clientName": "Farmer Randolph",
+      "update": "2024-05-19 22:29",
+      "creation": "2023-11-23 09:21",
+      "assignedTech": [
+        "Thiago Fischborn",
+        "Rodrigo Lorscheiter",
+        "Schainan Hahn Soares"
+      ],
+      "assignedGroup": "N2-Tech",
+      "category": "Rede",
+      "description": "Voluptate sit laboris enim exercitation dolore. Ea labore quis commodo nostrud labore Lorem magna non commodo laborum eiusmod labore mollit nulla. Dolor commodo cupidatat cillum amet laborum. Mollit occaecat cillum officia ipsum aliqua.\r\n"
+    }
+  },
+  {
+    "_id": 55491,
     "info": {
       "title": "Criação de Usuário",
-      "status": "Aberto",
+      "status": "Pendente",
       "priority": "Média",
-      "clientName": "Cobb Patton",
-      "update": "2024-05-18 18:22",
-      "creation": "2023-12-20 19:20",
-      "assignedTech": "Wilkerson Vang",
+      "clientName": "Green Pacheco",
+      "update": "2024-04-24 04:27",
+      "creation": "2023-12-28 03:56",
+      "assignedTech": [],
+      "assignedGroup": "N2-Tech",
+      "category": "Sistemas",
+      "description": "Enim labore ullamco officia duis ullamco minim fugiat adipisicing ullamco esse nostrud. Nostrud non ut elit do esse id dolore anim commodo. Enim amet magna velit sint amet et laborum magna laborum anim veniam elit. Anim sint eiusmod aute eiusmod voluptate velit quis magna eiusmod tempor sunt. Eiusmod velit nostrud ullamco fugiat culpa pariatur ut fugiat. Occaecat sit laborum eu aute tempor ullamco sint consequat.\r\n"
+    }
+  },
+  {
+    "_id": 55263,
+    "info": {
+      "title": "Criação de Usuário",
+      "status": "Processando",
+      "priority": "Alta",
+      "clientName": "Barbra Jacobson",
+      "update": "2024-03-13 01:06",
+      "creation": "2024-01-09 01:34",
+      "assignedTech": [
+        "Schainan Hahn Soares",
+        "Lorenzo Mogi Yang"
+      ],
       "assignedGroup": "N1",
+      "category": "Sistemas",
+      "description": "Adipisicing minim velit officia id magna et veniam quis pariatur. Dolore veniam laborum duis culpa in consectetur ad dolore. Id cupidatat sunt aute nostrud nostrud cillum laborum reprehenderit cillum dolore dolore fugiat. Ullamco duis sit pariatur elit ullamco esse sunt consequat deserunt nostrud. Esse labore ullamco in ut amet culpa aliqua incididunt fugiat laborum commodo elit. Incididunt commodo quis amet aute nisi nisi quis ea do.\r\n"
+    }
+  },
+  {
+    "_id": 55703,
+    "info": {
+      "title": "Solicitação de Atendimento",
+      "status": "Processando",
+      "priority": "Baixa",
+      "clientName": "Shepard Booth",
+      "update": "2024-03-22 04:34",
+      "creation": "2023-12-05 17:57",
+      "assignedTech": [
+        "Rodrigo Lorscheiter",
+        "Lorenzo Mogi Yang",
+        "Schainan Hahn Soares"
+      ],
+      "assignedGroup": "N2-Tech",
       "category": "Hardware",
-      "description": "Non incididunt deserunt aute ea aliqua aliquip dolor est consequat do eu mollit irure ad. Dolor aliquip nostrud exercitation eu. Excepteur veniam est minim in eiusmod reprehenderit reprehenderit veniam sint.\r\n"
+      "description": "Quis sit eiusmod ea dolore anim dolor consectetur ex tempor deserunt exercitation commodo cupidatat. Minim dolor ut do aliquip sint irure consectetur. Sunt irure incididunt tempor ullamco aliqua magna id eu veniam aliqua. Irure esse sit sint officia nulla amet enim ad laborum pariatur aliquip reprehenderit.\r\n"
+    }
+  },
+  {
+    "_id": 55907,
+    "info": {
+      "title": "Solicitação de Atendimento",
+      "status": "Processando",
+      "priority": "Baixa",
+      "clientName": "Acosta Hays",
+      "update": "2024-02-11 11:28",
+      "creation": "2024-01-25 20:41",
+      "assignedTech": [
+        "Schainan Hahn Soares",
+        "Thiago Fischborn",
+        "Rodrigo Lorscheiter"
+      ],
+      "assignedGroup": "N2-Sup",
+      "category": "Sistemas",
+      "description": "Veniam laborum sit voluptate sunt adipisicing amet incididunt deserunt laboris eu eiusmod anim fugiat. Eiusmod laborum nostrud ea proident ut labore minim et quis id officia in nostrud. Deserunt quis dolor ipsum eu ipsum adipisicing nostrud ad velit nisi dolor consequat irure amet. Voluptate ut elit ipsum ut. Nostrud officia cupidatat proident tempor ad quis laboris ut nostrud adipisicing exercitation fugiat. Exercitation eiusmod reprehenderit voluptate pariatur fugiat velit eiusmod nostrud id voluptate reprehenderit ea enim.\r\n"
+    }
+  },
+  {
+    "_id": 55102,
+    "info": {
+      "title": "Solicitação de Atendimento",
+      "status": "Pendente",
+      "priority": "Alta",
+      "clientName": "Sheppard Merritt",
+      "update": "2024-04-16 13:19",
+      "creation": "2023-10-22 04:59",
+      "assignedTech": [
+        "Schainan Hahn Soares"
+      ],
+      "assignedGroup": "N1",
+      "category": "Software",
+      "description": "Consequat aliqua elit ea nisi tempor Lorem ea consequat in laboris sunt consequat cupidatat. Consequat quis in mollit aliquip anim pariatur est. Aliquip consequat dolore tempor amet ut voluptate ad fugiat incididunt qui qui amet commodo. Proident sunt laboris pariatur culpa et dolor quis excepteur adipisicing. Duis consectetur aliqua labore ullamco nisi ipsum esse commodo. In irure excepteur aliqua ipsum labore exercitation in minim consequat do Lorem aute. Id occaecat irure dolore exercitation voluptate qui deserunt.\r\n"
+    }
+  },
+  {
+    "_id": 55251,
+    "info": {
+      "title": "Solicitação de Atendimento",
+      "status": "Processando",
+      "priority": "Média",
+      "clientName": "Ines Cohen",
+      "update": "2024-03-29 01:42",
+      "creation": "2023-11-13 06:10",
+      "assignedTech": [
+        "Thiago Fischborn"
+      ],
+      "assignedGroup": "N2-Sup",
+      "category": "Software",
+      "description": "Aliqua occaecat laboris sit magna. Est proident aliquip laboris proident. Occaecat ea aliquip consequat sunt quis proident eiusmod irure. Aliqua aliqua ullamco officia ea velit anim.\r\n"
+    }
+  },
+  {
+    "_id": 55888,
+    "info": {
+      "title": "Criação de Usuário",
+      "status": "Fechado",
+      "priority": "Baixa",
+      "clientName": "Neal Mason",
+      "update": "2024-03-25 13:00",
+      "creation": "2023-10-09 09:58",
+      "assignedTech": [
+        "matheus silva ribeiro",
+        "Lorenzo Mogi Yang"
+      ],
+      "assignedGroup": "N2-Tech",
+      "category": "Sistemas",
+      "description": "Duis occaecat amet cillum magna adipisicing duis ea anim officia dolore ex qui pariatur. Sint dolore amet velit in labore deserunt minim ullamco ut sint deserunt culpa commodo in. Excepteur incididunt dolore veniam laboris pariatur est. Quis ad ut dolore anim enim est laboris ut duis consectetur laborum excepteur mollit. Proident qui officia qui quis eu. Fugiat cillum nisi nostrud labore proident consequat anim qui elit.\r\n"
     }
   }
 ]

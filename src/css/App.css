@@ -17,6 +17,9 @@
   height: 70px;
   font-family: var(--ubuntu);
   padding: 20px 0 0 20px;
+  span {
+    margin-right: 10px;
+  }
 }
 .logo>span {
   padding-bottom: 10px;
@@ -91,6 +94,20 @@
   tr {
     display: flex;
     align-items: center;
+    border: 1px rgba(var(--quaternary-rgb), 0.5);
+    border-style: none none solid solid;
+    border-left-width: 20px;
+    border-left-color: transparent;   
+  }
+  tr.p-mid {
+    border-style: none none solid outset;
+    border-left-width: 20px;
+    border-left-color: orange;
+  }
+  tr.p-high {
+    border-style: none none solid outset;
+    border-left-width: 20px;
+    border-left-color: red;
   }
   th {
     padding: 5px 20px;
@@ -170,15 +187,60 @@
     -2px -2px 0 var(--primary),  
     2px -2px 0 var(--primary);
 }
-.priority-text-medium {
-  color: orange;
+.priority {
+  font-family: var(--ubuntu);
+  position: absolute;
+  font-size: 1rem;
+  transform: rotate(-90deg) translate(-10px, -50px);
 }
-.priority-text-high {
-  color: red;
+.p-text-medium {
+  transform: rotate(-90deg) translate(-10px, -53px);
+  color: var(--primary);
+}
+.p-text-high {
+  transform: rotate(-90deg) translate(-10px, -47px);
+  color: var(--primary);
 }
 .priority-emoji {
+  max-height: 30px;
+  max-width: 35px;
   z-index: -1;
   position: absolute;
   font-size: 1.3rem !important;
   transform: rotate(345deg) translate(-5px, -10px) !important;
+}
+.assignedTech {
+  display: flex;
+  align-items: center;
+  .assignedTech-other {
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(var(--quaternary-rgb), 0.5);
+  }
+  .hide-tech {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-color: var(--primary);
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+    z-index: 1;
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--quaternary) !important;
+    .hide-tech-person {
+      display: flex;
+      margin: 5px;
+    }
+  }
+  &:hover {
+    div {
+      display: flex;
+      span {
+        margin: 5px 0;
+      }	
+    }
+  }
 }

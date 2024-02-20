@@ -1,16 +1,12 @@
 import { useState } from 'react';
 import { Menu, Logo } from './index';
-const Side = ({ tempHandle }) => {
-
-    const sideTempHandle = (newFilter) => {
-        tempHandle(newFilter);
-    }
+const Side = () => {
 
     return (
         <div className="side-grid">
             <Logo />
             <div className='menu'>
-                <Menu tempHandle = {sideTempHandle}
+                <Menu
                     name={'Tickets'}
                     icon={'tickets'}
                 />

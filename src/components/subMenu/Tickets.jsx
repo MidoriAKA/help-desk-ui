@@ -1,14 +1,31 @@
 import React, { useContext } from "react";
-import { MenuContext } from "../contexts/MenuContext";
-const SubMenuTickets = ({handleMenuFilter}) => {
-    const { sendClicked } = useContext(MenuContext);
+import { SelectMenuContext } from "../contexts/SelectMenuContext";
+//コンテキストをインポート
+
+const SubMenuTickets = () => {
+    const { sendClicked, selectedMenu } = useContext(SelectMenuContext);
+    //useContextを使ってコンテキストを呼び出す
+
+    const menu = {
+        all: {  text: "Todos", en: "All" },
+        closed: { text: "Fechado", en: "Closed" },
+        notAssigned: { text: "Nao pendente", en: "Not assigned"  },
+        pinned: { text: "Salvo", en: "Pinned" },
+    };
+
     return (
+        <SelectMenuContext.Provider value={{ selectedMenu, sendClicked }}>
         <ul className='sub-menu'>
-            <li onClick={() => {sendClicked('all')}}>Todos</li>
-            <li onClick={() => {sendClicked('not assigned')}}>Nao pendente</li>
-            <li onClick={() => {sendClicked('pending')}}>Pendente</li>
-            <li onClick={() => {sendClicked('pinned')}}>Pinned</li>
+            {Object.keys(menu).map((key, index) => (
+                <li
+                    key={index}
+                    className={selectedMenu === key ? "menu-active" : ""}
+                    onClick={() => {sendClicked(key)}}>
+                    {menu[key].text}
+                </li>
+            ))}
         </ul>
+        </SelectMenuContext.Provider>
     );
 };
 

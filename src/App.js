@@ -1,16 +1,16 @@
 import { useContext, useState } from 'react';
 import './css/App.css';
 import './css/reset.css';
-import ticketDates from './dummy/dummy_1.json';
+import ticketDates from './dummy/dummy_4.json';
 import { Side, Tickets } from './components/index';
-import { MenuContext } from './components/contexts/MenuContext';
+import { SelectMenuContext } from './components/contexts/SelectMenuContext';
 
 function App() {
 
   const [selectedMenu, sendClicked] = useState("all");
 
   return (
-    <MenuContext.Provider value={{selectedMenu, sendClicked}}>
+    <SelectMenuContext.Provider value={{selectedMenu, sendClicked}}>
       <div className="App">
         <Side />
         <Tickets
@@ -18,7 +18,7 @@ function App() {
         />
         <p>Selected text: {selectedMenu}</p>
       </div>
-    </MenuContext.Provider>
+    </SelectMenuContext.Provider>
   );
 }
 
