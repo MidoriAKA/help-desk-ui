@@ -2,12 +2,6 @@ import { useState } from 'react';
 import { Menu, Logo } from './index';
 const Side = ({ tempHandle }) => {
 
-    // const [temp, setTemp] = useState("");
-    // const handleValueChange = (newFilter) => {
-    //     setTemp(newFilter);
-    //     props.tempHandleMenuFilter(newFilter);
-    // };
-
     const sideTempHandle = (newFilter) => {
         tempHandle(newFilter);
     }
@@ -30,3 +24,4 @@ const Side = ({ tempHandle }) => {
 };
 
 export default Side;
+// Path: src/components/subMenu/Tickets.jsx
