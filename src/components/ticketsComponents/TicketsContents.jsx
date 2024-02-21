@@ -3,8 +3,8 @@ const TicketsContents = ({ticketDates}) => {
         ["Baixa", "low"],
         ["Média", "medium"],
         ["Alta", "high"],
-        ["Aberto", "open"],
-        ["Em andamento", "in-progress"],
+        ["Processando", "inProgress"],
+        ["Pendente", "pending"],
         ["Fechado", "closed"]
     ]);
     return (
@@ -23,8 +23,9 @@ const TicketsContents = ({ticketDates}) => {
             </td>
             <td
                 id={`${ticketDates._id}_status`}
-                className={`status-text-${ticketInfoMap.get(ticketDates.info.status)}`}>
+                className={`status-text status-${ticketInfoMap.get(ticketDates.info.status)}`}>
                 {ticketDates.info.status}
+                <p className="update-time-p">{ticketDates.info.update}</p>
             </td>
             <td id={`${ticketDates._id}_info`}>
                 <span class="material-symbols-outlined">feed</span>

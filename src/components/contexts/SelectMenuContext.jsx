@@ -11,7 +11,7 @@ const SelectMenuProvider = ({ children }) => {
     };
 
     return (
-        <SelectMenuProvider.Provider value={{ selectedMenu, setSelectedMenu , sendClicked }}>
+        <SelectMenuProvider.Provider value={{ selectedMenu, sendClicked }}>
             {children}
         </SelectMenuProvider.Provider>
     );

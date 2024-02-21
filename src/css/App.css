@@ -119,7 +119,7 @@
   }
   th:nth-child(2) {
     text-align: center;
-    width: 120px;
+    width: 150px;
   }
   th:nth-child(3) {
     width: 450px;
@@ -146,7 +146,7 @@
       }
       td:nth-child(2) {
         text-align: center;
-        width: 120px;
+        width: 150px;
       }
       td:nth-child(3) {
         display: flex;
@@ -164,6 +164,11 @@
         width: 110px;
       }
   }
+}
+#closedTicket {
+  text-decoration: line-through !important;
+  color: rgba(var(--quaternary-rgb), 0.5) !important;
+  border-color: rgba(var(--quaternary-rgb), 0.3);
 }
 .info-div {
   margin-left: 10px;
@@ -209,6 +214,22 @@
   font-size: 1.3rem !important;
   transform: rotate(345deg) translate(-5px, -10px) !important;
 }
+.status-text {
+  font-size: 0.9rem;
+  font-weight: bold;
+  &.status-inProgress {
+    color: green;
+  }
+  &.status-pending {
+    color: orange;
+  }
+  >.update-time-p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: rgba(var(--quaternary-rgb), 0.5);
+  }
+}
+
 .assignedTech {
   display: flex;
   align-items: center;
@@ -222,10 +243,12 @@
     flex-direction: column;
     align-items: center;
     position: absolute;
+    transform: translate(-140px, -26px);
     background-color: var(--primary);
     padding: 10px;
     border: solid 1px;
-    border-radius: 5px;
+    border-top-style: none;
+    border-radius: 0 0 5px 5px;
     z-index: 1;
     font-size: 1rem;
     font-weight: 300;

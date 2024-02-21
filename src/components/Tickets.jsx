@@ -1,7 +1,10 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import { TicketsContents } from './index';
+import { TicketsDatasContext } from './contexts/TicketsDatas';
+
 
 const Tickets = ({ ticketDates }) => {
+
     const [currentPage, setCurrentPage] = useState(1);
     const ticketsPerPage = 10;
     const totalPages = Math.ceil(ticketDates.length / ticketsPerPage);
@@ -13,17 +16,29 @@ const Tickets = ({ ticketDates }) => {
     // Get the tickets to display on the current page
     const currentTickets = ticketDates.slice(startIndex, endIndex);
     
+    const { rowTicketsDatas, sortedID, sortedStartData, sortedUpdate, sortedPriority } = useContext(TicketsDatasContext);
 
     return (
+        // <TicketsDatasContext.Provider>
         <div id="ticketsRender">
+            <span>
+                {/* {rowTicketsDatas} */}
+            </span>
             <table className="tickets">
                 <thead>
                     <tr>
-                        <th>ID</th>
-                        <th>Status</th>
-                        <th>Informação</th>
-                        <th>Atribuído<br />Técnico</th>
-                        <th><br />Grupo</th>
+                        <th><span>ID</span></th>
+                        <th><span>Status
+                            <br/>Atualização</span>
+                        </th>
+                        <th><span>Informação
+                            <br/>Data</span>
+                        </th>
+                        <th><span>Atribuído
+                            <br/>Técnico</span>
+                        </th>
+                        <th><span><br/>Grupo</span>
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -54,6 +69,7 @@ const Tickets = ({ ticketDates }) => {
                 ))}
             </div>
         </div>
+        // </TicketsDatasContext.Provider>
     );
 }
 
