@@ -1,5 +1,5 @@
 import React from 'react'
-import { TicketsDatas } from './contexts/TicketsDatas';
+import { useTicketsDatas } from './contexts/TicketsDatas';
 
 function TicketsHeader() {
 

@@ -1,73 +1,129 @@
-import { createContext, useState } from "react";
-import importedDatas from '../../dummy/dummy_4.json';
-export const TicketsDatasContext = createContext();
+import React, { createContext, useContext, useState } from "react";
+import rowTicketsDatas from '../../dummy/dummy_4.json';
 
-const TicketsDatasProvider = ({ children }) => {
+const TicketsDatasContext = createContext();
+export const useTicketsDatas = () => {
+    return useContext(TicketsDatasContext);
+};
 
-    let rowTicketsDatas = importedDatas;
+export const TicketsDatasProvider = ({ children }) => {
 
-    const sortedID = (sortDirection) => {
+    const [currentTicketsDatas, setCurrentTicketsDatas] = useState(rowTicketsDatas);
+    let tempTicketsDatas = rowTicketsDatas;
+    const [sortDirectionState, setSortDirection] = useState("up");
+    const [sortTypeState, setSortType] = useState("id");
+    const [isHiddenClosed, setIsHiddenClosed] = useState(false);
+
+    const sortID = (sortDirection, argTicketsDatas) => {
         if(sortDirection === "up"){
-            rowTicketsDatas.sort((a, b) => {
+            argTicketsDatas.sort((a, b) => {
                 if (a._id < b._id) { return -1; }
                 else{ return 1; }
             });
         } else {
-            rowTicketsDatas.sort((a, b) => {
+            argTicketsDatas.sort((a, b) => {
                 if (a._id < b._id) { return 1; }
                 else{ return -1; }
             });
         }
+        return argTicketsDatas;
     };
-    const sortedStartData = (sortDirection) => {
+    const sortStartData = (sortDirection, argTicketsDatas) => {
         if(sortDirection === "up"){
-            rowTicketsDatas.sort((a, b) => {
-                if (a.info.startData.replace(/[^0-9]/g, '') < b.info.startData.replace(/[^0-9]/g, '')) { return -1; }
+            argTicketsDatas.sort((a, b) => {
+                if (a.info.creation.replace(/[^0-9]/g, '') < b.info.creation.replace(/[^0-9]/g, '')) { return -1; }
                 else{ return 1; }
             });
         } else {
-            rowTicketsDatas.sort((a, b) => {
-                if (a.info.startData.replace(/[^0-9]/g, '') < b.info.startData.replace(/[^0-9]/g, '')) { return 1; }
+            argTicketsDatas.sort((a, b) => {
+                if (a.info.creation.replace(/[^0-9]/g, '') < b.info.creation.replace(/[^0-9]/g, '')) { return 1; }
                 else{ return -1; }
             });
         }
+        return argTicketsDatas;
     };
-    const sortedUpdate = (sortDirection) => {
+    const sortUpdate = (sortDirection, argTicketsDatas) => {
         if(sortDirection === "up"){
-            rowTicketsDatas.sort((a, b) => {
+            argTicketsDatas.sort((a, b) => {
                 if (a.info.update.replace(/[^0-9]/g, '') < b.info.update.replace(/[^0-9]/g, '')) { return -1; }
                 else{ return 1; }
             });
         } else {
-            rowTicketsDatas.sort((a, b) => {
+            argTicketsDatas.sort((a, b) => {
                 if (a.info.update.replace(/[^0-9]/g, '') < b.info.update.replace(/[^0-9]/g, '')) { return 1; }
                 else{ return -1; }
             });
         }
+        return argTicketsDatas;
     };
-    const sortedPriority = (sorteDirection) => {
+    const sortPriority = (sorteDirection, argTicketsDatas) => {
         const priorityMap = new Map([
             ["Baixa", 1],
             ["Média", 2],
             ["Alta", 3]
         ]);
         if(sorteDirection === "up"){
-            rowTicketsDatas.sort((a, b) => {
+            argTicketsDatas.sort((a, b) => {
                 if (priorityMap.get(a.info.priority) < priorityMap.get(b.info.priority)) { return -1; }
                 else{ return 1; }
             });
         } else {
-            rowTicketsDatas.sort((a, b) => {
+            argTicketsDatas.sort((a, b) => {
                 if (priorityMap.get(a.info.priority) < priorityMap.get(b.info.priority)) { return 1; }
                 else{ return -1; }
             });
         }
+        return argTicketsDatas;
+    };
+
+    const hidenClosed = () => {
+        const hidenClosedTickets = rowTicketsDatas.filter((ticket) => ticket.info.status !== "Fechado");
+        return hidenClosedTickets;
+    }
+    const setHide = (value) => {
+        if (value) {
+            setIsHiddenClosed(true);
+            tempTicketsDatas = currentTicketsDatas
+            setCurrentTicketsDatas(hidenClosed());
+        } else {
+            setIsHiddenClosed(false);
+            setCurrentTicketsDatas(tempTicketsDatas);
+        }
+    }
+
+    const sortTickets = (sortType) => {
+        setSortType(sortType);
+        if (sortDirectionState === "up" && sortType === sortTypeState) {
+            setSortDirection("down");
+        } else {
+            setSortDirection("up");
+        }
+        switch(sortType){
+            case "id":
+                setCurrentTicketsDatas(sortID(sortDirectionState, currentTicketsDatas));
+                break;
+            case "startData":
+                setCurrentTicketsDatas(sortStartData(sortDirectionState, currentTicketsDatas));
+                break;
+            case "update":
+                setCurrentTicketsDatas(sortUpdate(sortDirectionState, currentTicketsDatas));
+                break;
+            case "priority":
+                setCurrentTicketsDatas(sortPriority(sortDirectionState, currentTicketsDatas));
+                break;
+        }
     };
 
     return (
-        <TicketsDatasProvider.Provider value={{ rowTicketsDatas, sortedID, sortedStartData, sortedUpdate, sortedPriority }}>
+        <TicketsDatasContext.Provider value={{
+                currentTicketsDatas,
+                sortTickets,
+                sortDirectionState,
+                sortTypeState,
+                setHide
+            }}>
             {children}
-        </TicketsDatasProvider.Provider>
+        </TicketsDatasContext.Provider>
     );
 }
 // Path: src/components/contexts/TicketsDatas.jsx

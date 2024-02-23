@@ -1,37 +1,38 @@
-import { useState, useContext } from 'react';
+import { useState } from 'react';
 import { TicketsContents } from './index';
-import { TicketsDatasContext } from './contexts/TicketsDatas';
+import { useTicketsDatas } from './contexts/TicketsDatas';
 
 
-const Tickets = ({ ticketDates }) => {
+const Tickets = () => {
+    const { currentTicketsDatas, sortTickets, setHide,
+            sortDirectionState, sortTypeState } = useTicketsDatas();
+
 
     const [currentPage, setCurrentPage] = useState(1);
     const ticketsPerPage = 10;
-    const totalPages = Math.ceil(ticketDates.length / ticketsPerPage);
+    const totalPages = Math.ceil(currentTicketsDatas.length / ticketsPerPage);
 
     // Calculate the index range for the current page
     const startIndex = (currentPage - 1) * ticketsPerPage;
     const endIndex = startIndex + ticketsPerPage;
 
     // Get the tickets to display on the current page
-    const currentTickets = ticketDates.slice(startIndex, endIndex);
+    const currentTickets = currentTicketsDatas.slice(startIndex, endIndex);
     
-    const { rowTicketsDatas, sortedID, sortedStartData, sortedUpdate, sortedPriority } = useContext(TicketsDatasContext);
 
     return (
-        // <TicketsDatasContext.Provider>
         <div id="ticketsRender">
-            <span>
-                {/* {rowTicketsDatas} */}
-            </span>
+            <span> {sortDirectionState}, {sortTypeState} </span>
+            <button onClick={() => sortTickets("priority")}>Priority</button>
             <table className="tickets">
                 <thead>
                     <tr>
-                        <th><span>ID</span></th>
-                        <th><span>Status
+
+                        <th onClick={() => sortTickets("id")}><span>ID</span></th>
+                        <th onClick={() => sortTickets("update")}><span>Status
                             <br/>Atualização</span>
                         </th>
-                        <th><span>Informação
+                        <th onClick={() => sortTickets("update")}><span>Informação
                             <br/>Data</span>
                         </th>
                         <th><span>Atribuído
@@ -69,8 +70,8 @@ const Tickets = ({ ticketDates }) => {
                 ))}
             </div>
         </div>
-        // </TicketsDatasContext.Provider>
     );
 }
 
 export default Tickets;
+// Path: src/components/Tickets.jsx

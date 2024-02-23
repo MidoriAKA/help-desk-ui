@@ -4,7 +4,7 @@ import './css/reset.css';
 import ticketDates from './dummy/dummy_4.json';
 import { Side, Tickets } from './components/index';
 import { SelectMenuContext } from './components/contexts/SelectMenuContext';
-import { TicketsDatasContext } from './components/contexts/TicketsDatas';
+import { TicketsDatasProvider } from './components/contexts/TicketsDatas';
 
 function App() {
 
@@ -13,15 +13,13 @@ function App() {
 
   return (
     <SelectMenuContext.Provider value={{selectedMenu, sendClicked}}>
-      <TicketsDatasContext.Provider>
+      <TicketsDatasProvider>
       <div className="App">
         <Side />
-        <Tickets
-          ticketDates={ticketDates}
-        />
+        <Tickets />
         <p>Selected text: {selectedMenu}</p>
       </div>
-      </TicketsDatasContext.Provider>
+      </TicketsDatasProvider>
     </SelectMenuContext.Provider>
   );
 }
