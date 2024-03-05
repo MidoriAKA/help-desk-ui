@@ -12,7 +12,22 @@ export const TicketsDatasProvider = ({ children }) => {
     let tempTicketsDatas = rowTicketsDatas;
     const [sortDirectionState, setSortDirection] = useState("up");
     const [sortTypeState, setSortType] = useState("id");
+    // eslint-disable-next-line
     const [isHiddenClosed, setIsHiddenClosed] = useState(false);
+
+    const searchTicket = (searchValue) => {
+        const searchResult = rowTicketsDatas.filter((ticket) => {
+            if (ticket.info.title.toLowerCase().includes(searchValue.toLowerCase()) ||
+                ticket.info.clientName.toLowerCase().includes(searchValue.toLowerCase()) ||
+                ticket.info.assignedTech.toLowerCase().includes(searchValue.toLowerCase()) ||
+                ticket.info.assignedGroup.toLowerCase().includes(searchValue.toLowerCase())) {
+                return ticket;
+            }
+            return null;
+        });
+        
+        setCurrentTicketsDatas(searchResult);
+    }
 
     const sortID = (sortDirection, argTicketsDatas) => {
         if(sortDirection === "up"){
@@ -110,6 +125,8 @@ export const TicketsDatasProvider = ({ children }) => {
                 break;
             case "priority":
                 setCurrentTicketsDatas(sortPriority(sortDirectionState, currentTicketsDatas));
+                break;
+            case "default":
                 break;
         }
     };

@@ -22,8 +22,7 @@ const Tickets = () => {
 
     return (
         <div id="ticketsRender">
-            <span> {sortDirectionState}, {sortTypeState} </span>
-            <button onClick={() => sortTickets("priority")}>Priority</button>
+            
             <table className="tickets">
                 <thead>
                     <tr>
